@@ -6,8 +6,15 @@ This is a Flask-based application to predict iris species using a trained Random
 
 1. Clone the repository:
     ```bash
+   sudo apt update
+   sudo apt install python3 python3-pip -y
+   sudo apt install docker.io -y
+   
+
     git clone <repo-url>
     cd project
+    pip3 install -r requirements.txt
+
     ```
 
 2. Train the model:
